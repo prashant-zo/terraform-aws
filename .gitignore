@@ -2,9 +2,14 @@
 .terraform/
 *.tfstate
 *.tfstate.backup
-
+*.tfplan
 # Terraform lock file (optional)
 .terraform.lock.hcl
 
 # Mac files
 .DS_Store
+*.tfplan
+
+*.pem
+*.key
+terraform.tfvars
